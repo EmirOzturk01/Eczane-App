@@ -131,6 +131,9 @@ extension AddressesViewController: UITableViewDelegate, UITableViewDataSource {
                 }
                 self.addresses.remove(at: indexPath.row)
                 addressTable.deleteRows(at: [indexPath], with: .fade)
+                if(addresses.count==0){
+                    showEmptyStateView()
+                }
             }
         default:
             break;
