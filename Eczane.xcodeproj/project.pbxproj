@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2E085B2B9F3D52007F3A33 /* PharmacyInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E085A2B9F3D52007F3A33 /* PharmacyInfoViewModel.swift */; };
+		CB2E085D2B9F3E6F007F3A33 /* PharmacyInfoUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E085C2B9F3E6F007F3A33 /* PharmacyInfoUIView.swift */; };
+		CB544EB22BAB716F00692DE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB544EB12BAB716F00692DE0 /* Constants.swift */; };
+		CB544EB42BAB721900692DE0 /* MesaiTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB544EB32BAB721900692DE0 /* MesaiTime.swift */; };
+		CB544EB62BABB16E00692DE0 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB544EB52BABB16E00692DE0 /* EmptyStateView.swift */; };
+		CB56DADD2BB3938F007EBEE5 /* AddressMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB56DADC2BB3938F007EBEE5 /* AddressMapVC.swift */; };
+		CB56DAE02BB39DBD007EBEE5 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CB56DADF2BB39DBD007EBEE5 /* IQKeyboardManagerSwift */; };
+		CB72EDA42B9E07F300AE3A9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDA32B9E07F300AE3A9C /* AppDelegate.swift */; };
+		CB72EDA62B9E07F300AE3A9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDA52B9E07F300AE3A9C /* SceneDelegate.swift */; };
+		CB72EDAE2B9E07F300AE3A9C /* EczaneDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDAC2B9E07F300AE3A9C /* EczaneDataModel.xcdatamodeld */; };
+		CB72EDB02B9E07F400AE3A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB72EDAF2B9E07F400AE3A9C /* Assets.xcassets */; };
+		CB72EDB32B9E07F400AE3A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB72EDB12B9E07F400AE3A9C /* LaunchScreen.storyboard */; };
+		CB72EDBB2B9E09FC00AE3A9C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDBA2B9E09FC00AE3A9C /* TabBarViewController.swift */; };
+		CB72EDBD2B9E0D3F00AE3A9C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDBC2B9E0D3F00AE3A9C /* HomeViewController.swift */; };
+		CB72EDBF2B9E0D4E00AE3A9C /* PharmaciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDBE2B9E0D4E00AE3A9C /* PharmaciesViewController.swift */; };
+		CB72EDC12B9E0D5F00AE3A9C /* AddressesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDC02B9E0D5F00AE3A9C /* AddressesViewController.swift */; };
+		CB72EDC82B9E5ADC00AE3A9C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDC72B9E5ADC00AE3A9C /* NetworkManager.swift */; };
+		CB72EDCA2B9E5C1800AE3A9C /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB72EDC92B9E5C1800AE3A9C /* Pharmacy.swift */; };
+		CB7A74572BAF5EC900F1692A /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A74562BAF5EC900F1692A /* DataPersistence.swift */; };
+		CB7A74592BAF5FBE00F1692A /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A74582BAF5FBE00F1692A /* Address.swift */; };
+		CBD5F1532BAE1C8A00B54BCF /* SaveAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5F1522BAE1C8A00B54BCF /* SaveAddressVC.swift */; };
+		CBD5F1552BAE255E00B54BCF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD5F1542BAE255E00B54BCF /* CustomTextField.swift */; };
+		CBF221082BA8D04100169D7E /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF221072BA8D04100169D7E /* AlertVC.swift */; };
+		CBF2210A2BA8D07500169D7E /* AlertContainerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF221092BA8D07500169D7E /* AlertContainerUIView.swift */; };
+		CBF8299F2BA227CB008BFD26 /* EczaneInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF8299E2BA227CB008BFD26 /* EczaneInfoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB2E085A2B9F3D52007F3A33 /* PharmacyInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyInfoViewModel.swift; sourceTree = "<group>"; };
+		CB2E085C2B9F3E6F007F3A33 /* PharmacyInfoUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyInfoUIView.swift; sourceTree = "<group>"; };
+		CB544EB12BAB716F00692DE0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB544EB32BAB721900692DE0 /* MesaiTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesaiTime.swift; sourceTree = "<group>"; };
+		CB544EB52BABB16E00692DE0 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		CB56DADC2BB3938F007EBEE5 /* AddressMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressMapVC.swift; sourceTree = "<group>"; };
+		CB72EDA02B9E07F300AE3A9C /* Eczane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eczane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB72EDA32B9E07F300AE3A9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB72EDA52B9E07F300AE3A9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB72EDAD2B9E07F300AE3A9C /* Eczane.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eczane.xcdatamodel; sourceTree = "<group>"; };
+		CB72EDAF2B9E07F400AE3A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB72EDB22B9E07F400AE3A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB72EDB42B9E07F400AE3A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB72EDBA2B9E09FC00AE3A9C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CB72EDBC2B9E0D3F00AE3A9C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB72EDBE2B9E0D4E00AE3A9C /* PharmaciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaciesViewController.swift; sourceTree = "<group>"; };
+		CB72EDC02B9E0D5F00AE3A9C /* AddressesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesViewController.swift; sourceTree = "<group>"; };
+		CB72EDC72B9E5ADC00AE3A9C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CB72EDC92B9E5C1800AE3A9C /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		CB7A74562BAF5EC900F1692A /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
+		CB7A74582BAF5FBE00F1692A /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		CBD5F1522BAE1C8A00B54BCF /* SaveAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveAddressVC.swift; sourceTree = "<group>"; };
+		CBD5F1542BAE255E00B54BCF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CBF221072BA8D04100169D7E /* AlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		CBF221092BA8D07500169D7E /* AlertContainerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContainerUIView.swift; sourceTree = "<group>"; };
+		CBF8299E2BA227CB008BFD26 /* EczaneInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EczaneInfoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB72ED9D2B9E07F300AE3A9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB56DAE02BB39DBD007EBEE5 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB544EB02BAB713000692DE0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CB544EB12BAB716F00692DE0 /* Constants.swift */,
+				CB544EB32BAB721900692DE0 /* MesaiTime.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CB72ED972B9E07F300AE3A9C = {
+			isa = PBXGroup;
+			children = (
+				CB72EDA22B9E07F300AE3A9C /* Eczane */,
+				CB72EDA12B9E07F300AE3A9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB72EDA12B9E07F300AE3A9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB72EDA02B9E07F300AE3A9C /* Eczane.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB72EDA22B9E07F300AE3A9C /* Eczane */ = {
+			isa = PBXGroup;
+			children = (
+				CB544EB02BAB713000692DE0 /* Utilities */,
+				CB72EDC62B9E5AB600AE3A9C /* Managers */,
+				CB72EDC52B9E5A7200AE3A9C /* Controllers */,
+				CB72EDC42B9E5A5C00AE3A9C /* Views */,
+				CB72EDC32B9E5A4000AE3A9C /* ViewModels */,
+				CB72EDC22B9E5A3000AE3A9C /* Models */,
+				CB72EDA32B9E07F300AE3A9C /* AppDelegate.swift */,
+				CB72EDA52B9E07F300AE3A9C /* SceneDelegate.swift */,
+				CB72EDAF2B9E07F400AE3A9C /* Assets.xcassets */,
+				CB72EDB12B9E07F400AE3A9C /* LaunchScreen.storyboard */,
+				CB72EDB42B9E07F400AE3A9C /* Info.plist */,
+				CB72EDAC2B9E07F300AE3A9C /* EczaneDataModel.xcdatamodeld */,
+				CB72EDBA2B9E09FC00AE3A9C /* TabBarViewController.swift */,
+			);
+			path = Eczane;
+			sourceTree = "<group>";
+		};
+		CB72EDC22B9E5A3000AE3A9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB72EDC92B9E5C1800AE3A9C /* Pharmacy.swift */,
+				CB7A74582BAF5FBE00F1692A /* Address.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB72EDC32B9E5A4000AE3A9C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E085A2B9F3D52007F3A33 /* PharmacyInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CB72EDC42B9E5A5C00AE3A9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E085C2B9F3E6F007F3A33 /* PharmacyInfoUIView.swift */,
+				CBF8299E2BA227CB008BFD26 /* EczaneInfoTableViewCell.swift */,
+				CBF221092BA8D07500169D7E /* AlertContainerUIView.swift */,
+				CB544EB52BABB16E00692DE0 /* EmptyStateView.swift */,
+				CBD5F1542BAE255E00B54BCF /* CustomTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB72EDC52B9E5A7200AE3A9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB72EDBC2B9E0D3F00AE3A9C /* HomeViewController.swift */,
+				CB72EDBE2B9E0D4E00AE3A9C /* PharmaciesViewController.swift */,
+				CB72EDC02B9E0D5F00AE3A9C /* AddressesViewController.swift */,
+				CBF221072BA8D04100169D7E /* AlertVC.swift */,
+				CBD5F1522BAE1C8A00B54BCF /* SaveAddressVC.swift */,
+				CB56DADC2BB3938F007EBEE5 /* AddressMapVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB72EDC62B9E5AB600AE3A9C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CB72EDC72B9E5ADC00AE3A9C /* NetworkManager.swift */,
+				CB7A74562BAF5EC900F1692A /* DataPersistence.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB72ED9F2B9E07F300AE3A9C /* Eczane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB72EDB72B9E07F400AE3A9C /* Build configuration list for PBXNativeTarget "Eczane" */;
+			buildPhases = (
+				CB72ED9C2B9E07F300AE3A9C /* Sources */,
+				CB72ED9D2B9E07F300AE3A9C /* Frameworks */,
+				CB72ED9E2B9E07F300AE3A9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eczane;
+			packageProductDependencies = (
+				CB56DADF2BB39DBD007EBEE5 /* IQKeyboardManagerSwift */,
+			);
+			productName = Eczane;
+			productReference = CB72EDA02B9E07F300AE3A9C /* Eczane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB72ED982B9E07F300AE3A9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CB72ED9F2B9E07F300AE3A9C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CB72ED9B2B9E07F300AE3A9C /* Build configuration list for PBXProject "Eczane" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB72ED972B9E07F300AE3A9C;
+			packageReferences = (
+				CB56DADE2BB39DBD007EBEE5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = CB72EDA12B9E07F300AE3A9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB72ED9F2B9E07F300AE3A9C /* Eczane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB72ED9E2B9E07F300AE3A9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB72EDB32B9E07F400AE3A9C /* LaunchScreen.storyboard in Resources */,
+				CB72EDB02B9E07F400AE3A9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB72ED9C2B9E07F300AE3A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD5F1532BAE1C8A00B54BCF /* SaveAddressVC.swift in Sources */,
+				CB544EB42BAB721900692DE0 /* MesaiTime.swift in Sources */,
+				CB72EDAE2B9E07F300AE3A9C /* EczaneDataModel.xcdatamodeld in Sources */,
+				CB7A74572BAF5EC900F1692A /* DataPersistence.swift in Sources */,
+				CB72EDC12B9E0D5F00AE3A9C /* AddressesViewController.swift in Sources */,
+				CB2E085B2B9F3D52007F3A33 /* PharmacyInfoViewModel.swift in Sources */,
+				CB56DADD2BB3938F007EBEE5 /* AddressMapVC.swift in Sources */,
+				CB7A74592BAF5FBE00F1692A /* Address.swift in Sources */,
+				CBF221082BA8D04100169D7E /* AlertVC.swift in Sources */,
+				CB544EB62BABB16E00692DE0 /* EmptyStateView.swift in Sources */,
+				CB72EDA42B9E07F300AE3A9C /* AppDelegate.swift in Sources */,
+				CB544EB22BAB716F00692DE0 /* Constants.swift in Sources */,
+				CB72EDBB2B9E09FC00AE3A9C /* TabBarViewController.swift in Sources */,
+				CB72EDC82B9E5ADC00AE3A9C /* NetworkManager.swift in Sources */,
+				CBD5F1552BAE255E00B54BCF /* CustomTextField.swift in Sources */,
+				CBF2210A2BA8D07500169D7E /* AlertContainerUIView.swift in Sources */,
+				CB2E085D2B9F3E6F007F3A33 /* PharmacyInfoUIView.swift in Sources */,
+				CB72EDA62B9E07F300AE3A9C /* SceneDelegate.swift in Sources */,
+				CB72EDCA2B9E5C1800AE3A9C /* Pharmacy.swift in Sources */,
+				CBF8299F2BA227CB008BFD26 /* EczaneInfoTableViewCell.swift in Sources */,
+				CB72EDBD2B9E0D3F00AE3A9C /* HomeViewController.swift in Sources */,
+				CB72EDBF2B9E0D4E00AE3A9C /* PharmaciesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB72EDB12B9E07F400AE3A9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB72EDB22B9E07F400AE3A9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB72EDB52B9E07F400AE3A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB72EDB62B9E07F400AE3A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB72EDB82B9E07F400AE3A9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73S662P297;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eczane/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "i need";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirozturk.Eczane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB72EDB92B9E07F400AE3A9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73S662P297;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eczane/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "i need";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirozturk.Eczane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB72ED9B2B9E07F300AE3A9C /* Build configuration list for PBXProject "Eczane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB72EDB52B9E07F400AE3A9C /* Debug */,
+				CB72EDB62B9E07F400AE3A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB72EDB72B9E07F400AE3A9C /* Build configuration list for PBXNativeTarget "Eczane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB72EDB82B9E07F400AE3A9C /* Debug */,
+				CB72EDB92B9E07F400AE3A9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB56DADE2BB39DBD007EBEE5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB56DADF2BB39DBD007EBEE5 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB56DADE2BB39DBD007EBEE5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CB72EDAC2B9E07F300AE3A9C /* EczaneDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB72EDAD2B9E07F300AE3A9C /* Eczane.xcdatamodel */,
+			);
+			currentVersion = CB72EDAD2B9E07F300AE3A9C /* Eczane.xcdatamodel */;
+			path = EczaneDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB72ED982B9E07F300AE3A9C /* Project object */;
+}
